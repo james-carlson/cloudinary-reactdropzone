@@ -6,7 +6,7 @@ When students working on React projects want to make it possible for users to up
 
 Cloudinary is a pretty great image management solution. Students can get an account for free and get enough space to do what they need for their projects and even a little beyond. You can also control the image with query paramters (resize, rotate, etc., see [here](https://cloudinary.com/documentation/image_transformations)).  
 
-Overall, the Cloudinary documentation is great and React Dropzone is pretty good. 
+Overall, the Cloudinary documentation is great and React Dropzone's is pretty good. If students take a look at that, do their best, and then you have this, you should be able to get things up and running.
 
 ## Psuedo Code
 Import the Dropzone component from 'react-dropzone' to the target component.
@@ -14,7 +14,7 @@ Place the component in your render function where you'd like it to appear.
 Use the "onDrop" function to set the image to state.
 Also fire a function that hits the cloudinary API with an upload. 
 The response from uploading the image will contain a URL. 
-Save the *URL* to the students database. 
+Save the *URL* to the students database (rather than the image). 
 When wanting to display images that have been uploaded, you stick the URL in the src attribute(s) of an `img` tag.
 
 
