@@ -1,5 +1,5 @@
 # Cloudinary + React Dropzone
-[James Carlson]. If you see something wrong or that can be improved, let me know.  
+[James Carlson](https://github.com/james-carlson). If you see something wrong or that can be improved, let me know.  
 
 ## Overview
 When students working on React projects want to make it possible for users to upload and store images, the `react-dropzone` (https://www.npmjs.com/package/react-dropzone) npm package can be coupled with a free Cloudinary (https://cloudinary.com/) account.  
